@@ -1,27 +1,32 @@
 {
-  "name": "diy-svg",
-  "version": "0.1.0",
-  "description": "Simple SVG Drawing App",
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "test": "test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/markandmarkup/diy-svg.git"
-  },
-  "author": "Mark Eyles",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/markandmarkup/diy-svg/issues"
-  },
-  "homepage": "https://github.com/markandmarkup/diy-svg#readme",
-  "dependencies": {
-    "next": "^12.1.6",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  }
+    "name": "diy-svg",
+    "version": "0.1.0",
+    "description": "Simple SVG Drawing App",
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint",
+        "test": "test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/markandmarkup/diy-svg.git"
+    },
+    "author": "Mark Eyles",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/markandmarkup/diy-svg/issues"
+    },
+    "homepage": "https://github.com/markandmarkup/diy-svg#readme",
+    "dependencies": {
+        "next": "^12.1.6",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    },
+    "devDependencies": {
+        "eslint": "8.18.0",
+        "eslint-config-next": "12.1.6",
+        "prettier": "2.7.1"
+    }
 }
